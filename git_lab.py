@@ -59,3 +59,7 @@ def is_prime(n):
         if n % i == 0:
             return False
     return True
+
+def add_numbers(a, b):
+    """Returns the sum of two numbers."""
+    return a + b
